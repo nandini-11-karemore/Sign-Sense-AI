@@ -4,7 +4,6 @@ numpy
 joblib
 pandas
 scikit-learn
-pyttsx3
 xgboost
 streamlit
 streamlit-webrtc
