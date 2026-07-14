@@ -1,6 +1,6 @@
 import streamlit as st # type: ignore
 import cv2
-import av
+import av # type: ignore
 import time
 from collections import deque, Counter
 
