@@ -1,11 +1,6 @@
 import cv2
 import mediapipe as mp
-import streamlit as st
 
-st.write("MediaPipe version:", mp.__version__)
-st.write("Has solutions:", hasattr(mp, "solutions"))
-st.write(dir(mp))
-st.stop()
 
 class DetectionResult:
     def __init__(self, hand_landmarks):
