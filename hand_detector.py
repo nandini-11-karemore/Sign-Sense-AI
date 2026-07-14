@@ -1,6 +1,6 @@
 import mediapipe as mp
 import streamlit as st
 
-st.write("MediaPipe Version:", mp.__version__)
-st.write("MediaPipe:", dir(mp))
+st.write("MediaPipe:", mp.__file__)
+st.write("Version:", mp.__version__)
 st.stop()
