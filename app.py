@@ -19,7 +19,7 @@ from drawer import draw_hand
 from predict import predict_letter
 from ui import draw_dashboard
 from word_builder import WordBuilder
-from speech import speak
+
 
 # -----------------------------
 # Streamlit Config
